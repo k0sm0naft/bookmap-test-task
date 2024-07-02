@@ -1,4 +1,4 @@
-package test.service.impl;
+package string.processor.service.impl;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -6,10 +6,10 @@ import java.nio.file.Path;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import test.service.Reader;
+import string.processor.service.Reader;
 
 public class FileReader implements Reader {
-    private final String fileName = "input.txt";
+    private static final String fileName = "input.txt";
 
     @Override
     public List<String> read() {

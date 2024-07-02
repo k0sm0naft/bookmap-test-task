@@ -1,15 +1,15 @@
-package test;
+package string.processor;
 
 import java.util.List;
-import test.model.Data;
-import test.service.Parser;
-import test.service.Processor;
-import test.service.Reader;
-import test.service.Writer;
-import test.service.impl.FileReader;
-import test.service.impl.FileWriter;
-import test.service.impl.ParserImpl;
-import test.service.impl.ProcessorImpl;
+import string.processor.service.Processor;
+import string.processor.service.Reader;
+import string.processor.service.Writer;
+import string.processor.model.Data;
+import string.processor.service.Parser;
+import string.processor.service.impl.FileReader;
+import string.processor.service.impl.FileWriter;
+import string.processor.service.impl.ParserImpl;
+import string.processor.service.impl.ProcessorImpl;
 
 public class Main {
     private static final Reader READER = new FileReader();

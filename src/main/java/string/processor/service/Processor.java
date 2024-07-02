@@ -1,7 +1,7 @@
-package test.service;
+package string.processor.service;
 
 import java.util.List;
-import test.model.Data;
+import string.processor.model.Data;
 
 public interface Processor {
     List<Integer> process(Data data);
